@@ -1,57 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>navbar</title>
     <style>
-        .nav{
+        .nav {
             background-color: black;
             color: white;
             text-align: center;
             padding: 1% 7%;
         }
-        .nav a{
+
+        .nav a {
             text-decoration: none;
             color: white;
             font-size: 1.2rem;
             padding: 10px 20px;
             cursor: pointer;
         }
-        .dp-cn{
+
+        .dp-cn {
             display: inline;
-            position: relative;
+            position: relative
         }
-        .dp-cn:hover .cn{
+
+        .dp-cn:hover .cn {
             display: block;
         }
-        .cn{
+
+        .cn {
             position: absolute;
             top: 30px;
             right: 0px;
-            background-color: black;
+            background-color: red;
             text-align: left;
             min-width: 100px;
             display: none;
         }
-        .cn a{
+
+        .cn a {
             display: block;
         }
     </style>
 </head>
+
 <body>
     <div class="nav">
 
         <a href="#">Home</a>
         <div class="dp-cn">
-            <a href="#">Contact ME</a>
-        <div class="cn">
-            <a href="#">Facebook</a>
-            <a href="#">Email</a>
+            <a href="#">Contact Me</a>
+            <div class="cn">
+                <a href="#">Facebook</a>
+                <a href="#">Email</a>
+            </div>
         </div>
-        </div>
-        <a href="#">about Me</a>
+        <a href="#">About Me</a>
     </div>
 </body>
+
 </html>

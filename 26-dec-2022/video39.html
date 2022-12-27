@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid</title>
     <style>
+        div{
+            background-color: green;
+        }
         .grid-container{
             display: grid;
-            grid-template-columns: auto auto auto;
+            grid-template-columns: auto auto auto auto 100px;
         }
         .grid-container > div{
             background-color: chocolate;
@@ -20,7 +23,7 @@
 </head>
 <body>
     <div class="grid-container">
-        <div>1</div>
+        <div>1 <div>test</div></div>
         <div>2</div>
         <div>3</div>
         <div>4</div>
