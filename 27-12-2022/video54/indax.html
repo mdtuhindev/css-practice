@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CSS Table</title>
+    <style>
+        table{
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,td{
+            border: 2px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+
+        th{
+            background-color: rgb(85, 85, 198);
+            color: white;
+            height: 30px;
+
+        }
+        tr:nth-child(even){
+            background-color: red;
+        }
+        tr:nth-child(odd){
+            background-color: greenyellow;
+        }
+        tr:hover{
+            background-color: yellow;
+        }
+    </style>
+
+</head>
+<body>
+    <table>
+        <caption>Student Detailes</caption>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>GPA</th>
+            <th>Phone</th>
+            <th>Bio</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Hasan</td>
+            <td>4.67</td>
+            <td>01916812522</td>
+            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</td>
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td>Asraf</td>
+            <td>4.7</td>
+            <td>01916812522</td>
+            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</td>
+        </tr>
+
+        <tr>
+            <td>103</td>
+            <td>Rifat</td>
+            <td>4.6</td>
+            <td>01916812522</td>
+            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</td>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Nafis</td>
+            <td>4.00</td>
+            <td>01916812522</td>
+            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</td>
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td>Mahim</td>
+            <td>3.50</td>
+            <td>01916812522</td>
+            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</td>
+        </tr>
+    </table>
+</body>
+</html>
